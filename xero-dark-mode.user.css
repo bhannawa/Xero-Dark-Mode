@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name         Xero Dark Mode
+@description  Dark mode for Xero online accounting software.
+@namespace    https://github.com/bhannawa/Xero-Dark-Mode
+@version      0.1
+@author       bhannawa (https://github.com/bhannawa)
+@homepageURL  https://github.com/bhannawa/Xero-Dark-Mode
+@supportURL   https://github.com/bhannawa/Xero-Dark-Mode/issues
+@license      AGPL-3.0-only
+==/UserStyle== */
+
+@-moz-document domain("go.xero.com") {
+.xdash-Dashboard__table___vFe0J {
+    background: #212121;
+}
+}
+
+@-moz-document domain("login.xero.com") {
+.xl-bodywrapper {
+    background: #212121;
+}
+}
+
+@-moz-document domain("xero.com") {
+
+}
