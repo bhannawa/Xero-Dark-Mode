@@ -6,7 +6,7 @@
 @author       bhannawa (https://github.com/bhannawa)
 @homepageURL  https://github.com/bhannawa/Xero-Dark-Mode
 @supportURL   https://github.com/bhannawa/Xero-Dark-Mode/issues
-@license      AGPL-3.0-only
+@license      AGPL-2.0-only
 ==/UserStyle== */
 
 @-moz-document domain("go.xero.com") {
@@ -16,11 +16,43 @@
 }
 
 @-moz-document domain("login.xero.com") {
-.xl-bodywrapper {
+.xl-bodywrapper, .xl-pagewrapper {
     background: #212121;
+}
+
+.xl-mainwrapper {
+	background-color: #323232;
+	border: 1px solid #aaaaaa;
+}
+
+.xui-textinput:not(.xui-textinput-cell) {
+	background-color: #434343;
+	color: #ddd;
+}
+
+.xui-textinput:not(.xui-textinput-cell):hover {
+	border-color: #fff;
+}
+
+.xui-textinput:not(.xui-textinput-cell):focus {
+	box-shadow: 0 0 0 3px rgba(89,89,89,.2);;
+}
+
+.xui-padding-vertical-small { /* "Log in to Xero" */
+	color: #fafafa;
 }
 }
 
 @-moz-document domain("xero.com") {
+.IKBDv, .iDcxJw::before, .iDcxJw::after, .jQWZox {
+	background-color: #212121;
+}
 
+.iUcipc, .ftKSfc {
+	color: #dbdbdb;
+}
+
+.ftKSfc {
+	box-shadow: #dbdbdb 0px 0px 0px 0.166667rem inset;
+}
 }
