@@ -13,6 +13,43 @@
 .xdash-Dashboard__table___vFe0J {
     background: #212121;
 }
+.xui-pageheading {
+    background-color: #323232;
+    border-bottom: 1px solid #545454;
+}
+
+#xero-main-dashboard > div:nth-child(1) {
+    background-color: #212121;
+}
+
+.xui-container, .xui-text-placeholder {
+    color: #eee;
+}
+
+.xdash-shared__container--not-hidden___1gpPl .xdash-shared__widget___TnErD {
+    background-color: #323232;
+}
+
+/* .xdash-WidgetHeader__widget-header___tj-gn .xdash-WidgetHeader__widget-header--description___36NUt, .xdash-balanceTable__summary--label___3BGZQ { */
+/*     color: #eee; */
+/* } */
+
+.xui-u-flex-grow {
+    color: #eee;
+}
+
+.xui-text-secondary, .xdash-balanceTable__summary--label___3BGZQ, .xui-text-minorlink {
+    color: #ddd;
+}
+
+.xdash-BalanceGraph__balance-graph--xaxis-text___2cSaD {
+    fill: #ddd;
+}
+
+.xui-button-standard {
+    background-image: linear-gradient(#434343,#434343);
+    color: #09f;
+}
 }
 
 @-moz-document domain("login.xero.com") {
